@@ -1,0 +1,12 @@
+[user]
+	name = Joshua Rivers
+	email = joshua.rivers@gmail.com
+[credential]
+	helper = osxkeychain
+[core]
+	excludesfile = ~/.gitignore_global
+[color]
+	ui = auto
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
